@@ -1,0 +1,73 @@
+/* .conteiner{
+    margin: auto;
+    overflow: auto;
+    width: 300px;
+    height: 261px;
+}
+
+.items {
+    padding: 5px 10px;
+}
+
+.info {
+    margin: auto;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    & button {
+        width: 280px;
+        height: 44px;
+        border: 0;
+        border-radius: 10px;
+        background: #FFFFFF;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 15px;
+    }
+
+    & .container {
+        overflow: auto;
+        margin: auto;
+
+        height: 261px;
+        border-radius: 10px;
+        background: #FFFFFF;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+        & .item {
+            padding: 10px;
+            font-family: Montserrat;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 100%;
+            letter-spacing: 0%;
+
+        }
+    }
+
+    .container::-webkit-scrollbar {
+        width: 0;
+        background: transparent;
+    }
+}
