@@ -33,26 +33,8 @@ function App() {
         ))}
       </div>
     </main>
-    // <section className={styles.info}>
-    //   <button >{selectValue}</button>
-    //   <div className={styles.conteiner}>
-    //     {value.map((el) => <p key={el.Cur_ID} className={styles.items}>{el.Cur_Name}</p>)}
-    //   </div>
-    // </section>
 
   );
 }
 
 export default App;
-{/* <main>
-<button onClick={() => {
-  !flag ? setFlag(true) : setFlag(false)
-}}>{selectCur}
-  <img src={!flag ? img1 : img2} />
-</button>
-<div style={{ display: flag === false ? 'none' : 'block' }} className={style.container}>
-  {value.map((el) => (
-    <p className={style.item}>{el.Cur_Name}</p>
-  ))}
-</div>
-</main> */}
